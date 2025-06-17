@@ -16,6 +16,14 @@
         </a>
       </li><!-- End agregar usuario Nav -->
 
+       <li class="nav-item">
+        <a class="nav-link " href="roles">
+          <i class="bi bi-grid"></i>
+          <span>Agregar Rol</span>
+        </a>
+      </li><!-- End agregar roles Nav -->
+
+
       <li class="nav-item">
         <a class="nav-link " href="app/vistas/modulos/exit.php">
           <i class="bi bi-grid"></i>
