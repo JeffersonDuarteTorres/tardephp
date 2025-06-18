@@ -26,4 +26,8 @@ class RoleController{
         }
 
     }
+
+    public static function ctrGetAllRoles(){
+        return RoleModel::mdlGetAllRole();
+    }
 }

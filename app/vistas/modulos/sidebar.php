@@ -23,6 +23,13 @@
         </a>
       </li><!-- End agregar roles Nav -->
 
+       <li class="nav-item">
+        <a class="nav-link " href="asignarRol">
+          <i class="bi bi-grid"></i>
+          <span>Asignar rol a usuario</span>
+        </a>
+      </li><!-- End asignar rol Nav -->
+
 
       <li class="nav-item">
         <a class="nav-link " href="app/vistas/modulos/exit.php">

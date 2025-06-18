@@ -52,6 +52,18 @@ if(
     exit;
 }
 
+//Agregar rol a usuario
+if(
+    $_SERVER["REQUEST_METHOD"] === "POST" &&
+    isset($_GET["route"],$_GET["action"]) &&
+    $_GET["route"] === "role"  &&
+    $_GET["action"] === "save"
+  ){
+    $roleController = new RoleController();
+    $roleController->ctrRoleSave();
+    exit;
+}
+
 $plantilla = new ControladorPlantilla();
 
 $plantilla->ctrPlantilla();
